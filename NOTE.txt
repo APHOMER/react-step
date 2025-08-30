@@ -1,0 +1,26 @@
+
+STATE IS THE MOST IMPORTANT CONCEPT IN REACT.
+EVERYTHING REVOLVES AROUND STATE IN REACT.
+STATE CAN BE SEEN AS THE MEMORY OF A COMPONENT.
+===> IT IS A DATA THAT A COMPONENT CAN HOLD OVER TIME, necessary for information that it needs to remember throughout the app's lifecycle.
+
+
+
+VID(66)======================PRACTICAL GUIDELINES ABOUT STATE=======================
+
+@ Use a state variable for any data that the component should keep tract of ('remember) over time. THIS IS DATAT THAT WILL CHANGE AT SOME POINT. In Vanilla.JS that's a let variable, or an [] or {}
+
+@Whenever you want something in the component to be DYNAMIC, create a piece of state related to that "thing", and update the state when the thing should change (aka "be dynamic")
+
+        @EXAMPLE: A modal window can be open or closed. so we create a state variable
+        isOpen that tracks whether the modal is open or not. On isOpen = true we 
+        display the window, on isOpen = we hide it.
+
+@If you want to change the way a component looks, or the data it display, UPDATE ITS STATE.
+This usually happens in an EVENT HANDLER function.
+
+@When building a component, imagine its view as a REFLECTION OF STATE CHANGING OVER TIME.
+
+@For data that should not trigger component re-renders, DON'T USE STATE. Use a regular variable instead. this is a common BEGINNER MISTAKE.
+
+
