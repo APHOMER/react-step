@@ -24,3 +24,6 @@ This usually happens in an EVENT HANDLER function.
 @For data that should not trigger component re-renders, DON'T USE STATE. Use a regular variable instead. this is a common BEGINNER MISTAKE.
 
 
+
+
+
